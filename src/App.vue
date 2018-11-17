@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld helloProps="This is my first Vue project"/>
   </div>
 </template>
 
@@ -17,6 +16,9 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: #0F1315;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
