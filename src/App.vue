@@ -1,16 +1,21 @@
 <template>
   <div id="app">
-    <HelloWorld helloProps="This is my first Vue project"/>
+    <NavBar/>
+    <HelloWorld helloProps="Welcome to puppy paradise!!"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/Nav.vue'
+import Puppies from './components/Puppies.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    NavBar,
+    Puppies
   }
 }
 </script>
